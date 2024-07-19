@@ -1,29 +1,4 @@
-# hannibal-hotel-db
-
-Let's start by loading the content of the provided SQL files to understand the structure and the functionality of the database application.
-We will read through each file to get an overview of the schema, procedures, functions, triggers, and any other relevant details.
-
-file_paths = [
-    '/mnt/data/demo_data.sql',
-    '/mnt/data/procedures_functions_create.sql',
-    '/mnt/data/schema_create.sql',
-    '/mnt/data/schema_drop.sql',
-    '/mnt/data/statistics_drop.sql',
-    '/mnt/data/statistics_generate.sql',
-    '/mnt/data/test.sql',
-    '/mnt/data/triggers_create.sql',
-    '/mnt/data/views_create.sql'
-]
-
-file_contents = {}
-
-for path in file_paths:
-    with open(path, 'r', encoding='utf-8') as file:
-        file_contents[path] = file.read()
-
-file_contents.keys()  # Display the keys to confirm files are loaded
-
-# Database Application
+# Database Application annibal-hotel-db
 
 ## Overview
 This repository contains scripts for a database application. It includes the schema definition, sample data, stored procedures, functions, triggers, and various utility scripts for managing the database.
