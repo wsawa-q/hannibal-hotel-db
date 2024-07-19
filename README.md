@@ -1,4 +1,4 @@
-# Database Application annibal-hotel-db
+# Database Application hannibal-hotel-db
 
 ## Overview
 This repository contains scripts for a database application. It includes the schema definition, sample data, stored procedures, functions, triggers, and various utility scripts for managing the database.
